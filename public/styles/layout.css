@@ -19,11 +19,22 @@ body {
   background-color: #f4f1ec;
   font-size: 24px;
   font-family: 'Source Sans Pro', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../images/asfalt-dark.png');
+  background-color: #6acef2;
 }
 
-nav {
-  font-family: 'Bungee', cursive;
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
+
 /*
  * Additional CSS can be defined below or in other CSS files, as per instructions
  */
+
