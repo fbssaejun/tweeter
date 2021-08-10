@@ -3,7 +3,7 @@
   flex-flow: column;
 }
 
-.new-tweet button{
+.new-tweet button {
   font-family: 'Bungee';
   color:white;
   background-color: #4056A1;
@@ -30,5 +30,6 @@ button:hover {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  font-family: 'Bungee';
 }
 
