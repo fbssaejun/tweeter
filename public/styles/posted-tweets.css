@@ -1,0 +1,53 @@
+/* styling for posted tweets */
+
+.posted-tweets {
+  margin: 50px 0;
+  width: 100%;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+ }
+
+ .posted-tweets:hover {
+ box-shadow: 5px 10px darkblue;
+}
+
+.posted-tweets header {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: black;
+  margin: 0px;
+}
+
+.posted-tweets header a {
+  color : cornflowerblue;
+  padding: 3px;
+  text-decoration: none;
+}
+
+.posted-tweets footer {
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+}
+
+.posted-tweets p {
+ width: 100%;
+ padding: 12px 20px;
+ margin: 8px 0;
+ box-sizing: border-box;
+ border: none;
+ border-bottom: 2px solid black;
+ background-color: transparent;
+}
+
+.posted-tweets i {
+ padding: 5px
+}
+
+.posted-tweets i:hover {
+ color: white;
+}
