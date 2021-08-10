@@ -1,11 +1,14 @@
 header {
-  height : 400px;
   width: 100%;
   display:flex;
   flex-flow: column;
   justify-content: center;
   align-items: center;
-  margin-top: 120px;
+  margin: 120px 0px 0px 0px;
   background-color: #4056A1;
   color: white;
+}
+
+header div h2{
+  margin-top: 5px;
 }
