@@ -12,12 +12,16 @@ nav {
   top:0;
 }
 
+nav p {
+  margin: 0px;
+}
+
 nav span {
   font-family: 'Bungee', cursive;
 }
 
 nav .fas {
-  color:red
+  color:red;
 }
 
 nav .write-new-tweet {
@@ -25,5 +29,4 @@ nav .write-new-tweet {
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
-  font-weight: 100;
 }
