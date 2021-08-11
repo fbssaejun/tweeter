@@ -1,12 +1,12 @@
 //Escapes from XSS attacks
-const escape = function (str) {
+const escape = function(str) {
   let div = document.createElement("div");
   div.appendChild(document.createTextNode(str));
   return div.innerHTML;
 };
 
 //Returns an html formate with information from given data
-const createTweetElement = function (tweet) {
+const createTweetElement = function(tweet) {
   let $tweet = `
   <article>
     <header>
@@ -39,17 +39,17 @@ const resetText = () => {
 };
 
 //POST request for new tweet submittions to '/tweets' path
-const submitTweets = function () {
+const submitTweets = function() {
   $('form').on('submit', function(e) {
     e.preventDefault();
     const tweetText = $("#tweet-text").val();
     if (!tweetText) {
-        $('.no-text').slideDown('slow')
+      $('.no-text').slideDown('slow');
     } else if (tweetText.length > 140) {
-      $('.over-max-text').slideDown('slow')
+      $('.over-max-text').slideDown('slow');
     } else {
       $.post("/tweets", $(this).serialize()).then(() => {
-        $('.errors').slideUp()
+        $('.errors').slideUp();
         loadTweets();
         resetText();
       });
@@ -58,7 +58,7 @@ const submitTweets = function () {
 };
 
 //GET request for loading tweets from the database
-const loadTweets = function () {
+const loadTweets = function() {
   $.get("/tweets")
     .then((data) => {
       renderTweets(data);
@@ -67,7 +67,7 @@ const loadTweets = function () {
 };
 
 //Render tweets in an html format
-const renderTweets = function (tweets) {
+const renderTweets = function(tweets) {
   //clears previously posted tweets from page
   $(".posted-tweets").empty();
   // loops through tweets
@@ -79,14 +79,16 @@ const renderTweets = function (tweets) {
   }
 };
 
-const showInput = function () {
+
+//Shows textarea for new tweets when arrow is clicked
+const showInput = function() {
   $('nav i').on('click', () => {
-    $('.new-tweet').slideToggle('slow')
-  })
-}
+    $('.new-tweet').slideToggle('slow');
+  });
+};
 
 //Call functions when DOM is ready
-$(document).ready(function () {
+$(document).ready(function() {
   submitTweets();
   loadTweets();
   showInput();
