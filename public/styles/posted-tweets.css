@@ -26,6 +26,13 @@
   margin: 0px;
 }
 
+.posted-tweets .userInfo {
+  display: flex;
+  align-items: center;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+
 .posted-tweets header a {
   color : cornflowerblue;
   padding: 3px;
