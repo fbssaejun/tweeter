@@ -45,7 +45,9 @@ const submitTweets = function() {
     const tweetText = $("#tweet-text").val();
     if (!tweetText) {
       $('.no-text').slideDown('slow');
+      $('.over-max-text').slideUp('slow');
     } else if (tweetText.length > 140) {
+      $('.no-text').slideUp('slow');
       $('.over-max-text').slideDown('slow');
     } else {
       $.post("/tweets", $(this).serialize()).then(() => {
