@@ -44,5 +44,6 @@ button:hover {
   margin: 20px;
   background-color: lightyellow;
   opacity: 0.5;
+  display: none;
 }
 
