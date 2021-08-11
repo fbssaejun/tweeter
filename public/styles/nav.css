@@ -20,9 +20,16 @@ nav span {
   font-family: 'Bungee', cursive;
 }
 
-nav .fas {
+nav i {  
   color:lightblue;
+  animation: move 1s infinite alternate;
 }
+
+@keyframes move {
+  0% { transform: translateY(0)}
+  100% { transform: translateY(-5px); }
+}
+
 
 nav .write-new-tweet {
   display: flex;
