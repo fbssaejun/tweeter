@@ -1,7 +1,16 @@
-
+//Render newly-posted &  old tweets from database
 $(document).ready(function() {
   $(".posted-tweets").append(renderTweets(data)); 
+  submitTweets();
 });
+
+//Javascript for new tweet submittions
+const submitTweets = function () {
+  $("form").on("submit", function (event) {
+    event.preventDefault();
+    $.post('/tweets', $(this).serialize())
+})};
+
 // Fake data taken from initial-tweets.json
 const data = [
   {
