@@ -1,6 +1,7 @@
 .new-tweet {
   display: flex;
   flex-flow: column;
+  margin: 50px 0;
 }
 
 .new-tweet button {
