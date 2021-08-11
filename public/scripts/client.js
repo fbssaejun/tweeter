@@ -10,13 +10,16 @@ const createTweetElement = function (tweet) {
   let $tweet = `
   <article>
     <header>
-      <label for=""><img src=${tweet.user.avatars} />${tweet.user.name}</label>
+      <div class="userInfo">
+      <img src=${tweet.user.avatars} />
+      <span>${tweet.user.name}</span>
+      </div>
       <a href="">${tweet.user.handle}</a>
     </header>
     <p>${escape(tweet.content.text)}</p>
     <footer>
     <div>
-      <span class="posts">Posted : ${timeago.format(new Date())}</span>
+      Tweeted : ${timeago.format(tweet.created_at)}
     </div>
     <div>
       <i class="fas fa-flag"></i>
@@ -41,11 +44,12 @@ const submitTweets = function () {
     e.preventDefault();
     const tweetText = $("#tweet-text").val();
     if (!tweetText) {
-      alert("There is no text to be submitted!");
+        $('.no-text').slideDown('slow')
     } else if (tweetText.length > 140) {
-      alert("You have exceeded maximum charaters!");
+      $('.over-max-text').slideDown('slow')
     } else {
       $.post("/tweets", $(this).serialize()).then(() => {
+        $('.errors').slideUp()
         loadTweets();
         resetText();
       });
@@ -58,7 +62,6 @@ const loadTweets = function () {
   $.get("/tweets")
     .then((data) => {
       renderTweets(data);
-      timeago.render(document.querySelectorAll(".posts"));
     })
     .catch((e) => console.log(("Error: ", e)));
 };
