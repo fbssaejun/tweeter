@@ -1,4 +1,4 @@
-//POST request for new tweet submittions to '/tweets' directory
+//POST request for new tweet submittions to '/tweets' path
 const submitTweets = function () {
   $("form").on("submit", function (event) {
     event.preventDefault();
