@@ -79,8 +79,15 @@ const renderTweets = function (tweets) {
   }
 };
 
+const showInput = function () {
+  $('nav i').on('click', () => {
+    $('.new-tweet').slideToggle('slow')
+  })
+}
+
 //Call functions when DOM is ready
 $(document).ready(function () {
   submitTweets();
   loadTweets();
+  showInput();
 });
