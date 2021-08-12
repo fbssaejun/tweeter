@@ -15,6 +15,7 @@
 
  .posted-tweets article:hover {
  box-shadow: 5px 10px darkblue;
+ transform: scale(1.03);
 }
 
 .posted-tweets header {
@@ -59,6 +60,14 @@
  padding: 5px
 }
 
-.posted-tweets i:hover {
- color: white;
+.posted-tweets .fa-flag:hover {
+  color: lightsalmon;
+ }
+
+.posted-tweets .fa-retweet:hover {
+ color: lightseagreen;
 }
+
+.posted-tweets .fa-heart:hover {
+  color: red;
+ }
