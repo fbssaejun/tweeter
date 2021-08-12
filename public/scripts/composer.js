@@ -17,7 +17,7 @@ $(document).ready(function() {
 const scroller = function () {
   $(window).scroll(function() {
     //Displays the button, fades out after 5seconds
-    $( ".scroll" ).css('display', 'inline').fadeOut(5000);
+    $( ".scroll" ).css('display', 'inline')
   });
 
   $(".scroll").click(function() {
