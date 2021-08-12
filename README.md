@@ -9,7 +9,7 @@
 - Users can type anything in the text box and share their tweets, and see other people's tweets!
 - Toggling the arrow icon under 'Wrtie a new tweet' will display / hide the new tweet post-box.
 - The blue arrow on the right bottom corner will appear when the user scrolls, and clicking it will navigate the user to the top of the page.
-!["Desktop interface"](https://github.com/fbssaejun/tweeter/blob/master/docs/dt-home.pngg)
+!["Desktop interface"](https://github.com/fbssaejun/tweeter/blob/master/docs/dt-home.png)
 
 ### Icons
 !["Users can use different icons to flag, share, or like a post"](https://github.com/fbssaejun/tweeter/blob/master/docs/dt-icon.png)
@@ -22,7 +22,6 @@
 ### Mobile interface
 !["Homepage (Mobile)"](https://github.com/fbssaejun/tweeter/blob/master/docs/mobile-home.png)
 !["Posts (Mobile)"](https://github.com/fbssaejun/tweeter/blob/master/docs/mobile-posts.png)
-
 
 ## Getting Started
 
