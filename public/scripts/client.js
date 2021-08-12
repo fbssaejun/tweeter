@@ -43,14 +43,17 @@ const submitTweets = function() {
   $('form').on('submit', function(e) {
     e.preventDefault();
     const tweetText = $("#tweet-text").val();
+    //Checks if the input field is empty, if yes, shows error message
     if (!tweetText) {
-      $('.errors').slideDown()
+      $('.errors').slideDown();
       $('.no-text').slideDown('slow');
       $('.over-max-text').slideUp('slow');
+    //Checks if the input is over 140 characters, if yes, shows error message
     } else if (tweetText.length > 140) {
-      $('.errors').slideDown()
+      $('.errors').slideDown();
       $('.no-text').slideUp('slow');
       $('.over-max-text').slideDown('slow');
+    //If input meets requirements, remove error and load the input
     } else {
       $.post("/tweets", $(this).serialize()).then(() => {
         $('.errors').slideUp();
