@@ -1,6 +1,6 @@
 header {
   width: 100%;
-  display:flex;
+  display: flex;
   flex-flow: column;
   justify-content: center;
   align-items: center;
@@ -8,8 +8,7 @@ header {
   background-color: #4056A1;
   color: white;
 }
-
-header div h2{
+header div h2 {
   margin-top: 5px;
 }
 

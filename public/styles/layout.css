@@ -5,6 +5,7 @@
  */
 html {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 *, *:before, *:after {
   box-sizing: inherit;
@@ -84,6 +85,7 @@ main {
 
    body > .container {
      margin: 7vw 2vw;
+     padding-left: 10px;
      float: right;
      width: 65vw;
    }

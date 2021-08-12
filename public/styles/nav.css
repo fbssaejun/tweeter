@@ -9,31 +9,30 @@ nav {
   z-index: 1;
   margin-bottom: 100px;
   position: fixed;
-  top:0;
+  top: 0;
 }
-
 nav p {
   margin: 0px;
 }
-
 nav span {
-  font-family: 'Bungee', cursive;
+  font-family: "Bungee", cursive;
 }
-
-nav i {  
-  color:lightblue;
+nav i {
+  color: lightblue;
   animation: move 1s infinite alternate;
 }
-
-@keyframes move {
-  0% { transform: translateY(0)}
-  100% { transform: translateY(-5px); }
-}
-
-
 nav .write-new-tweet {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
+}
+
+@keyframes move {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-5px);
+  }
 }

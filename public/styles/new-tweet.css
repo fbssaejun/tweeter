@@ -6,8 +6,8 @@
 }
 
 .new-tweet button {
-  font-family: 'Bungee';
-  color:white;
+  font-family: "Bungee";
+  color: white;
   background-color: #4056A1;
   border-radius: 3px;
   transition-duration: 0.4s;
@@ -32,11 +32,10 @@ button:hover {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  font-family: 'Bungee';
+  font-family: "Bungee";
 }
 
-
-.errors p{
+.errors p {
   font-style: italic;
   text-align: center;
   color: red;
@@ -47,4 +46,3 @@ button:hover {
   opacity: 0.5;
   display: none;
 }
-
