@@ -9,19 +9,25 @@
 - Users can type anything in the text box and share their tweets, and see other people's tweets!
 - Toggling the arrow icon under 'Wrtie a new tweet' will display / hide the new tweet post-box.
 - The blue arrow on the right bottom corner will appear when the user scrolls, and clicking it will navigate the user to the top of the page.
+
 !["Desktop interface"](https://github.com/fbssaejun/tweeter/blob/master/docs/dt-home.png)
 
 ### Icons
-!["Users can use different icons to flag, share, or like a post"](https://github.com/fbssaejun/tweeter/blob/master/docs/dt-icon.png)
+> Users can use different icons to flag, share, or like a post.
+![""](https://github.com/fbssaejun/tweeter/blob/master/docs/dt-icon.png)
 
 ### Warning messages 
-!["Users are not allowed to submit empty text and it should be under 140 characters"](https://github.com/fbssaejun/tweeter/blob/master/docs/dt-max-warning.png)
-!["Input field checks the value and prevents XSS attacks"](https://github.com/fbssaejun/tweeter/blob/master/docs/dt-no-input.png)
+> Users are not allowed to submit empty text and it should be under 140 characters.
+![""](https://github.com/fbssaejun/tweeter/blob/master/docs/dt-max-warning.png)
+> Input field checks the value and prevents XSS attacks.
+![""](https://github.com/fbssaejun/tweeter/blob/master/docs/dt-no-input.png)
 
 
 ### Mobile interface
-!["Homepage (Mobile)"](https://github.com/fbssaejun/tweeter/blob/master/docs/mobile-home.png)
-!["Posts (Mobile)"](https://github.com/fbssaejun/tweeter/blob/master/docs/mobile-posts.png)
+> Homepage (Mobile)
+![""](https://github.com/fbssaejun/tweeter/blob/master/docs/mobile-home.png)
+> Posts (Mobile)
+![""](https://github.com/fbssaejun/tweeter/blob/master/docs/mobile-posts.png)
 
 ## Getting Started
 
