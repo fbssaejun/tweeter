@@ -41,12 +41,14 @@
     </nav>
 
     <header>
+      <div class="profile">
       <div>
           <img src="/images/profile-hex.png"> 
       </div>
       <br>
       <div>
           <h2>Anthony Kim</h2>
+      </div>
       </div>
     </header>
 
@@ -58,7 +60,6 @@
           <p class="no-text">⚠️There is no text to be submitted, please fill in text to submit a new tweet⚠️</p>
           <p class="over-max-text">⚠️You have exceeded maximum amount of characters, please write within 140 words⚠️</p>
         </div>
-        <h2>Compose Tweet</h2>
         <form method="POST" action="/tweets">
           <label for="tweet-text">What are you humming about?</label>
           <input name="text" id="tweet-text"></input>
