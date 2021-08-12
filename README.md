@@ -13,20 +13,20 @@
 !["Desktop interface"](https://github.com/fbssaejun/tweeter/blob/master/docs/dt-home.png)
 
 ### Icons
-> Users can use different icons to flag, share, or like a post.
+- Users can use different icons to flag, share, or like a post.
 ![""](https://github.com/fbssaejun/tweeter/blob/master/docs/dt-icon.png)
 
 ### Warning messages 
-> Users are not allowed to submit empty text and it should be under 140 characters.
+- Users are not allowed to submit empty text and it should be under 140 characters.
 ![""](https://github.com/fbssaejun/tweeter/blob/master/docs/dt-max-warning.png)
-> Input field checks the value and prevents XSS attacks.
+- Input field checks if the input area is empty. Also checks the input value and prevents XSS attacks before submittion. 
 ![""](https://github.com/fbssaejun/tweeter/blob/master/docs/dt-no-input.png)
 
 
 ### Mobile interface
-> Homepage (Mobile)
+- Homepage (Mobile)
 ![""](https://github.com/fbssaejun/tweeter/blob/master/docs/mobile-home.png)
-> Posts (Mobile)
+- Posts (Mobile)
 ![""](https://github.com/fbssaejun/tweeter/blob/master/docs/mobile-posts.png)
 
 ## Getting Started
