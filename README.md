@@ -8,23 +8,23 @@
 ### Homepage
 > Users can type anything in the text box and share their tweets, and see other people's tweets!
 > The arrow on the right bottom corner will appear when the user scrolls, and clicking it will navigate the user to the top of the page.
-!["screenshot description"]()
+!["screenshot description"](https://github.com/fbssaejun/tweeter/blob/master/docs/dt-input-home.png)
+
 
 ### Icons
 > Users can use different icons to flag, share, or like a post
-!["screenshot description"]()
+!["screenshot description"](https://github.com/fbssaejun/tweeter/blob/master/docs/dt-flag-icon.png)
 
 ### Warning messages
 > Users are not allowed to submit empty text and it should be under 140 characters. 
+(https://github.com/fbssaejun/tweeter/blob/master/docs/dt-no-input-error.png)
 > Input field checks the value and prevents XSS attacks
-
-!["screenshot description"]()
-!["screenshot description"]()
+(https://github.com/fbssaejun/tweeter/blob/master/docs/dt-max-warning.png)
 
 
 ### Mobile interface
-![""]()
-![""]()
+![""](https://github.com/fbssaejun/tweeter/blob/master/docs/mobile-home.png)
+![""](https://github.com/fbssaejun/tweeter/blob/master/docs/mobile-posts.png)
 
 
 ## Getting Started
