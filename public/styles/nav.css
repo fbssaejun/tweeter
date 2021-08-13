@@ -11,6 +11,12 @@ nav {
   position: fixed;
   top: 0;
 }
+
+nav a {
+  text-decoration: none;
+  color: white
+}
+
 nav p {
   margin: 0px;
 }
